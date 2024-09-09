@@ -1,0 +1,247 @@
+body{
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: 'Roboto Condensed';
+    background-color: #fafafa;
+}
+span{
+    font-stretch: condensed;
+    -webkit-text-stroke: 1px #1D1D1D;
+    color: #5D9467;
+    font-weight: bold;
+}
+.TOPO{
+    background-color: #FAFAFA;
+    box-shadow: 0px 4px 15px 1px #1D1D1D;
+    display: flex;
+    font-family: 'Oswald';
+    justify-content: center;
+    width: 100vw;
+    position: fixed;
+}
+.Topo-Container{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+.Tp-Cntr-Nome{
+    width: 28vw;
+    font-size: 3.5vh;
+}
+.Tp-Cntr-Hyperlinks{
+    width: 28vw;
+    font-size: 2.7vh;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.hyperlink{
+    margin-top: 7.5vh;
+    margin-bottom: 7.5vh;
+    margin-left: 1.5vh;
+    margin-right: 1.5vh;
+    font-size: 3vh;
+    width: 10.5vh;
+    padding: 1.5vh;
+    background-color: #489857;
+    border-radius: 4vh;
+    text-decoration: none;
+    color: #2D2D2D;
+    box-shadow: 0px 4px 15px 1px #1D1D1D
+}
+.Conteudo-MAINcontainer{
+    background-image: url(img/img-fundo.jpg);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Ctd-Container-Nome_Slogan{
+    width: 60vh;
+    height: 30vh;
+    background-color: #489857C8;
+    box-shadow: 0px 0px 12px 4px #50d869;
+    text-align: center;
+    border: #FFF 0.4vh solid;
+}
+.Ctd-Container-Nome_Slogan h2{
+    font-size: 5.8vh;
+    font-family: 'Oswald';
+    color: #00000000;
+    -webkit-text-stroke: 0.2vh #FFF;
+    text-shadow: 1px 0 25px #FFF;
+}
+.Ctd-Container-Nome_Slogan h3{
+    font-family: 'Oswald';
+    color: #FFF;
+    font-weight: 400;
+    font-size: 3.5vh;
+    text-shadow: #000 0px 5px 6px;
+}
+.Ctd-Container-BemVindo{
+    display: flex;
+    justify-content: center;
+}
+.BV-R-SB{
+    height: 30vh;
+    width: 60vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.BV-R-SB h3{
+    font-size: 3.5vh;
+    color: #1E5F29;
+}
+.BV-R-SB p{
+    font-size: 2vh;
+    color: #3D3D3D;
+}
+.Ctd-Container-Quartos{
+    width: 99vw;
+    height: 62vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Ctd-Cntr-Quartos-FCS{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+}
+.Ctd-Cntr-Quartos-FCS img{
+    height: 38vh;
+    border-radius: 3vh;
+    box-shadow: 0px 4px 15px 1px #1D1D1D
+}
+.Ctd-Cntr-Quartos-FCS a{
+    font-family: 'Oswald';
+    width: 15vw;
+    text-align: center;
+    margin-top: 3vh;
+    font-size: 2.3vh;
+    padding: 1.5vh;
+    background-color: #489857;
+    border-radius: 2.8vh;
+    color: #2D2D2D;
+    text-decoration: none;
+    box-shadow: 0px 4px 15px 1px #1D1D1D
+}
+.Ctd-Container-Rota{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+}
+.Ctd-Container-Sobre{
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+}
+.Ctd-Container-SobreInformacoes{
+    width: 95vw;
+    display: flex;
+    margin: 2vw;
+    flex-wrap: wrap;
+    gap: 1vh;
+    justify-content: space-between;
+}
+.SobInf-Container{
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    width: 45vw;
+}
+.SobInf-Cntr-Texto{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+.SobInf-Cntr-Texto h3{
+    height: 5vh;
+    color: #1E5F29;
+    font-weight: 400;
+}
+.SobInf-Cntr-Imagem img{
+    height: 15vh;
+    max-width: 15vh;
+    border-radius: 2.5vh;
+}
+.RODAPE{
+    background-color: #489857;
+    color: #FFF;
+    padding-bottom: 2vh;
+}
+.Rdp-Container-DadosContato{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Cntr-DadCont-Container{
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    justify-content: space-evenly;
+}
+.Cntr-DadCont-Container img{
+    height: 5vh;
+    margin: 2vh;
+}
+.Cntr-DadCont-Container a{
+    display: flex;
+    flex-direction: row;
+    color: #FAFAFA;
+    text-decoration: none;
+}
+.Rdp-Container-DadosContato{
+    display: flex;
+    flex-direction: row;
+}
+.Topo-Margin{
+    height: 30vh
+}
+.Rdp-Container-Copyright{
+    text-align: center;
+}
+.Quartos-Info-Nome{
+    display: flex;
+    margin-right: 19vw;
+    margin-left: 19vw;
+    flex-direction: column;
+    height: 18vh;
+    width: 60vw;
+    text-align: center;
+}
+.Quartos-Info-Nome h2{
+    font-size: 3.5vh;
+    color: #1E5F29;
+}
+.Quartos-Info-Nome p{
+    font-size: 2vh;
+    color: #3D3D3D;
+}
+.Quartos-Info-Img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 95vw;
+    margin: 2vw;
+}
+.Quartos-Info-Img img{
+    height: 47vh;
+    width: 57vh;
+    border-radius: 4vh;
+}
+.Quartos-InfoTxt-list{
+    width: 98.5vw;
+    display: flex;
+    justify-content: space-evenly;
+    height: 15vh;
+    gap: 5vh;
+}
+.Quartos-InfoTxt-list li{
+    font-size: 2vh;
+}
+.Quartos-InfoTxt-h3{
+    font-size: 2.3vh;
+    text-align: center;
+    color: #118524;
+}
